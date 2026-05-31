@@ -21,7 +21,7 @@ const Register = () => {
     const newUser: UserType = {
       id: nanoid(),
       ...data,
-      role:'user'
+      role: "admin",
     };
 
     dispatch(addUser(newUser));
